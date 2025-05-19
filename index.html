@@ -219,7 +219,7 @@
         <div class="row" style="display: flex; flex-wrap: wrap; gap: 30px; justify-content: center;">
             
             <!-- Card 1 -->
-            <div style="flex: 0 0 calc(50% - 15px); background: #fff; border-radius: 12px; padding: 30px; box-shadow: 0 10px 20px rgba(0,0,0,0.08); transition: all 0.3s ease; cursor: default;"
+            <div class="responsive-card" style="flex: 0 0 calc(50% - 15px); background: #fff; border-radius: 12px; padding: 30px; box-shadow: 0 10px 20px rgba(0,0,0,0.08); transition: all 0.3s ease; cursor: default;"
                  onmouseover="this.style.transform='translateY(-5px)'; this.style.boxShadow='0 12px 25px rgba(0,0,0,0.12)';"
                  onmouseout="this.style.transform='translateY(0)'; this.style.boxShadow='0 10px 20px rgba(0,0,0,0.08)';">
                 <div style="margin-bottom: 20px; color: #007bff;">
@@ -237,7 +237,7 @@
             </div>
 
             <!-- Card 2 -->
-            <div style="flex: 0 0 calc(50% - 15px); background: #fff; border-radius: 12px; padding: 30px; box-shadow: 0 10px 20px rgba(0,0,0,0.08); transition: all 0.3s ease; cursor: default;"
+            <div class="responsive-card" style="flex: 0 0 calc(50% - 15px); background: #fff; border-radius: 12px; padding: 30px; box-shadow: 0 10px 20px rgba(0,0,0,0.08); transition: all 0.3s ease; cursor: default;"
                  onmouseover="this.style.transform='translateY(-5px)'; this.style.boxShadow='0 12px 25px rgba(0,0,0,0.12)';"
                  onmouseout="this.style.transform='translateY(0)'; this.style.boxShadow='0 10px 20px rgba(0,0,0,0.08)';">
                 <div style="margin-bottom: 20px; color: #007bff;">
@@ -255,7 +255,7 @@
             </div>
 
             <!-- Card 3 -->
-            <div style="flex: 0 0 calc(50% - 15px); background: #fff; border-radius: 12px; padding: 30px; box-shadow: 0 10px 20px rgba(0,0,0,0.08); transition: all 0.3s ease; cursor: default;"
+            <div class="responsive-card" style="flex: 0 0 calc(50% - 15px); background: #fff; border-radius: 12px; padding: 30px; box-shadow: 0 10px 20px rgba(0,0,0,0.08); transition: all 0.3s ease; cursor: default;"
                  onmouseover="this.style.transform='translateY(-5px)'; this.style.boxShadow='0 12px 25px rgba(0,0,0,0.12)';"
                  onmouseout="this.style.transform='translateY(0)'; this.style.boxShadow='0 10px 20px rgba(0,0,0,0.08)';">
                 <div style="margin-bottom: 20px; color: #007bff;">
@@ -273,7 +273,7 @@
             </div>
 
             <!-- Card 4 -->
-            <div style="flex: 0 0 calc(50% - 15px); background: #fff; border-radius: 12px; padding: 30px; box-shadow: 0 10px 20px rgba(0,0,0,0.08); transition: all 0.3s ease; cursor: default;"
+            <div class="responsive-card" style="flex: 0 0 calc(50% - 15px); background: #fff; border-radius: 12px; padding: 30px; box-shadow: 0 10px 20px rgba(0,0,0,0.08); transition: all 0.3s ease; cursor: default;"
                  onmouseover="this.style.transform='translateY(-5px)'; this.style.boxShadow='0 12px 25px rgba(0,0,0,0.12)';"
                  onmouseout="this.style.transform='translateY(0)'; this.style.boxShadow='0 10px 20px rgba(0,0,0,0.08)';">
                 <div style="margin-bottom: 20px; color: #007bff;">
@@ -293,6 +293,14 @@
         </div>
     </div>
 </div>
+<style>
+  @media (max-width: 768px) {
+    .responsive-card {
+      flex: 0 0 100% !important;
+    }
+  }
+</style>
+
 <!-- Services End -->
 
 
